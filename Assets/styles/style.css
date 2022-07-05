@@ -1,15 +1,23 @@
 /* tuhin css */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+body{
+    background-color: #EAF6F6;
+    font-family: 'Poppins', sans-serif;
+}
 .container-fluid{
     justify-content: center !important;
+    margin-top: 5px;
 }
 .navbar{
-    color: #66BFBF;
+    background-color: #66BFBF;
 }
 .navbar-brand {
     padding-top: 0.3125rem;
-    font-size: 1.25rem;
+    font-size: 1.8rem;
     text-decoration: none;
     white-space: nowrap;
+    color: #FFFFFF;
+    
 }
 .plr1{
     text-align: left !important;
