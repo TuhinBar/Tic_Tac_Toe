@@ -6,7 +6,7 @@ body{
 }
 .container-fluid{
     justify-content: center !important;
-    margin-top: 5px;
+    /* margin-top: 3px; */
 }
 .navbar{
     background-color: #66BFBF;
