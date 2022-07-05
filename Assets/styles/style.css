@@ -1,3 +1,14 @@
+/* tuhin css */
+*{
+    margin: auto;
+    padding: 0;
+}
+.navbar{
+    background-color: aqua;
+}
+
+
+
 /* arian css */
 .board {
     padding-top: 50%;
@@ -16,9 +27,3 @@
 
 
 
-
-/* tuhin css */
-*{
-    margin: auto;
-    padding: 0;
-}
