@@ -83,7 +83,48 @@ body{
     margin-right: 30%;
     border-radius: 5px;
     background-color: #E74C3C;
+    transition: all 280ms ease-in-out;
+    /* height: 60px; */
   }
+ 
+  
+  .btn-play:hover,
+  .btn-play:active {
+    color: #fff;
+    background-color: #76BA99;
+    letter-spacing: 5px;
+    transition: 0.4s ease-in-out;
+  }
+  
+  
+  .btn-play:after,
+  .btn-play:before {
+   /* line-height: 20px; */
+    border: 1px solid rgba(255, 255, 255, 0);
+    bottom: 0px;
+    content: " ";
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    transition: all 280ms ease-in-out;
+    width: 0;
+  }
+  
+  
+  .btn-play:hover:before {
+  
+    border-color: #fff;
+    transition: width 350ms ease-in-out;
+    width: 70%;
+  }
+  .btn-play:hover:after{
+    border-color: #fff;
+    transition: width 450ms ease-in-out;
+    width: 50%;
+  
+  }
+  
+
   .modal-title {
     text-align: center;
   }
@@ -138,6 +179,8 @@ body{
     background-color: #FF0063 ;
    
  }
+
+ 
 
 
 
