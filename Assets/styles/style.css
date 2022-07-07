@@ -20,8 +20,9 @@ body{
     
 }
 .container{
-    margin: 30px auto 0 auto;
+    margin: 30px auto;
     display: flex;
+    justify-content: space-around;
 }
 
 /* arian css */
