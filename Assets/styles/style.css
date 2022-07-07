@@ -20,9 +20,22 @@ body{
     
 }
 .container{
-    margin: 30px auto;
+    margin: 4rem auto 0 auto;
     display: flex;
     justify-content: space-around;
+}
+.player-name{
+  color: #E74C3C;
+}
+.player-name{
+  border-bottom: 3px solid #66bfbf ;
+  border-radius: 5px;
+}
+.player-name:hover{
+  color: #FF0063;
+  cursor: pointer;
+  border-radius: 9px;
+  transform: scale(0.3rem);
 }
 
 /* arian css */
@@ -149,10 +162,9 @@ body{
     /* flex-wrap: wrap; */
     width: 320px;
     height: 320px;
-    margin: 0 auto;
+    margin: 3rem auto 1.5rem auto;
     justify-content: center;
     align-items: center;
-    margin-top: 90px;
     /* flex-direction: row; */ 
  }
 
@@ -170,17 +182,21 @@ body{
     background: #66BFBF;
     transition: 0.2s ease-out;
  }
-
- .scoreBoard{
-    position: absolute;
-    height: 30%;
-    width: 100%;
-    bottom: 0;
-    
-    
-    background-color: #FF0063 ;
-   
- }
+.scoreboard{
+  background-color: #FF0063;
+  display: flex;
+  justify-content: center;
+  height: 30%;
+  bottom: 0;
+  position: fixed;
+  width: 100%;
+  
+}
+.score{
+  margin-top: 1.3rem;
+  border-bottom: 3px dotted #fff;
+}
+ 
 
  
 
