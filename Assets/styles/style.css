@@ -19,8 +19,9 @@ body{
     color: #FFFFFF;
     
 }
-.plr1{
-    text-align: left !important;
+.container{
+    margin: 30px auto 0 auto;
+    display: flex;
 }
 
 /* arian css */
