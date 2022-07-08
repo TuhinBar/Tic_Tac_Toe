@@ -191,12 +191,21 @@ body{
   
 }
 .score{
-  margin-top: 1.3rem;
+  margin: 1.3rem auto;
   color: #FFF2F2;
   text-align: center;
 }
 .player-names-score{
   display: flex;
+  justify-content: center;
+  margin: 1rem auto;
+}
+#fa-arrow{
+  margin: 0 3rem;
+}
+#fa-arrow-psuedo{
+  margin: 0 5rem;
+  opacity: 0;
 }
 @media (max-width: 380px){
   .scoreboard{
