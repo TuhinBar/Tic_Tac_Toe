@@ -11,7 +11,7 @@ play.addEventListener("click", () =>{
 turn = "1"
 boxes = document.getElementsByClassName('box')
 console.log(boxes)
- Array.from(boxes).forEach(item => {
+Array.from(boxes).forEach(item => {
     item.addEventListener('click', ()=>{
         console.log("box clicked")
         if (turn == "1"){
