@@ -1,12 +1,4 @@
 console.log("This is a tic tac toe fun game")
-// Player names
-
-
-
-
-
-
-
 
 // Game Logic
 let play = document.getElementById("play")
@@ -14,6 +6,9 @@ let play = document.getElementById("play")
 let modal = document.getElementById("modal")
 
 play.addEventListener("click", () =>{
+    let player1= document.getElementById("player1").value;
+    let player2= document.getElementById("player2").value;
+    console.log(player1,player2)
     console.log("close the modal")
     modal.classList.add("modal_close")
 

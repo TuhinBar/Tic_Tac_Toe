@@ -210,6 +210,10 @@ body{
   margin: 0 5rem;
   opacity: 0;
 }
+.reset-exit{
+  display: flex;
+  justify-content: space-between;
+}
 @media (max-width: 380px){
   .scoreboard{
     height: 30%;
