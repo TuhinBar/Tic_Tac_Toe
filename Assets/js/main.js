@@ -34,3 +34,16 @@ Array.from(boxes).forEach(item => {
         
     })
  })
+
+const reset_btn = document.getElementById("reset");
+reset_btn.addEventListener("click", () =>{
+    Array.from(boxes).forEach(item =>{
+        item.classList.remove("fa-solid", "fa-xmark", "fa-5x", "fa-regular", "fa-o", "fa-5x" 
+        )})
+    turn = "1"
+
+})
+const exit_btn = document.getElementById("exit");
+exit_btn.addEventListener("click", () =>{
+    window.location.reload()
+});
