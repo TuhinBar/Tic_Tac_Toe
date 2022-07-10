@@ -177,6 +177,7 @@ body{
     height:95px;
     margin:7px;
     background-color:#B7D3DF;
+    transition: 0.7s ease-in-out;
     
   }
  .box:hover{
@@ -210,10 +211,15 @@ body{
   margin: 0 5rem;
   opacity: 0;
 }
-.reset-exit{
+.reset-exit{ 
   display: flex;
   justify-content: space-between;
 }
+
+
+
+
+
 @media (max-width: 380px){
   .scoreboard{
     height: 30%;
