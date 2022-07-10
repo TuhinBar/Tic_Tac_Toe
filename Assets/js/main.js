@@ -1,4 +1,14 @@
 console.log("This is a tic tac toe fun game")
+// Player names
+
+
+
+
+
+
+
+
+// Game Logic
 let play = document.getElementById("play")
 // console.log(modal);
 let modal = document.getElementById("modal")
