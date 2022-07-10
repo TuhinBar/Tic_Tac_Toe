@@ -34,7 +34,6 @@ Array.from(boxes).forEach(item => {
         
     })
  })
-
 const reset_btn = document.getElementById("reset");
 reset_btn.addEventListener("click", () =>{
     Array.from(boxes).forEach(item =>{
