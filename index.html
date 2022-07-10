@@ -43,10 +43,10 @@
     </nav>
     <div class="container">
         <div class="player-name">
-            <h4 id="plr1">Player1</h4>
+            <h4 id="plr1"></h4>
         </div>
         <div class="player-name">
-            <h4 id="plr2">Player2</h4>
+            <h4 id="plr2"></h4>
         </div>
     </div>
 
@@ -80,7 +80,27 @@
         </div>
     </div>
 
-    
+    <!-- scoreboard -->
+
+<div class="scoreboard">
+    <div class="score">
+        <div class="reset-exit my-2">
+        <button class="btn btn-sm btn-primary">Reset</button>
+        <button class="btn btn-sm btn-primary">Exit</button>
+    </div>
+        <h3>Score</h3>
+        <div class="player-names-score">
+            <h4 id="score-1" class="player-score"></h4>
+            <i id="fa-arrow" class="fa-solid fa-arrows-left-right fa-2x"></i>
+            <h4 id="score-2" class="player-score"></h4>
+        </div>
+        <div class="player-names-score">
+            <h4 class="player-score"></h4>
+            <i id="fa-arrow-psuedo" class="fa-solid fa-arrows-left-right fa-2x"></i>
+            <h4 class="player-score"></h4>
+        </div>
+    </div>
+</div>
     <!-- MODAL -->
     <div id="modal" class="">
         <div class="modal-content">
@@ -108,27 +128,7 @@
 
 
 
-<!-- scoreboard -->
 
-<div class="scoreboard">
-    <div class="score">
-        <div class="reset-exit my-2">
-        <button class="btn btn-sm btn-primary">Reset</button>
-        <button class="btn btn-sm btn-primary">Exit</button>
-    </div>
-        <h3>Score</h3>
-        <div class="player-names-score">
-            <h4 class="player-score">Player1</h4>
-            <i id="fa-arrow" class="fa-solid fa-arrows-left-right fa-2x"></i>
-            <h4 class="player-score">Player2</h4>
-        </div>
-        <div class="player-names-score">
-            <h4 class="player-score">1</h4>
-            <i id="fa-arrow-psuedo" class="fa-solid fa-arrows-left-right fa-2x"></i>
-            <h4 class="player-score">0</h4>
-        </div>
-    </div>
-</div>
 
 
 <!-- Option 2: Separate Popper and Bootstrap JS -->

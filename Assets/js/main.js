@@ -8,6 +8,10 @@ let modal = document.getElementById("modal")
 play.addEventListener("click", () =>{
     let player1= document.getElementById("player1").value;
     let player2= document.getElementById("player2").value;
+    document.getElementById("plr1").innerText= player1;
+    document.getElementById("plr2").innerText= player2;
+    document.getElementById("score-1").innerText= player1;
+    document.getElementById("score-2").innerText= player2;
     console.log(player1,player2)
     console.log("close the modal")
     modal.classList.add("modal_close")
