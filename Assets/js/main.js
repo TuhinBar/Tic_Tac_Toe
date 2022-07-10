@@ -18,33 +18,19 @@ play.addEventListener("click", () =>{
 
 });
 turn = "1"
-// var js_media = window.matchMedia("(max-width: 430px)");
 boxes = document.getElementsByClassName('box')
 console.log(boxes)
 Array.from(boxes).forEach(item => {
     item.addEventListener('click', ()=>{
         console.log("box clicked")
         if (turn == "1"){
-            item.classList.add("fa-solid", "fa-xmark", "fa-3x")
+            item.classList.add("fa-solid", "fa-xmark", "fa-5x")
             turn = "0"
         }
         else{
-            item.classList.add("fa-regular", "fa-o", "fa-3x")
+            item.classList.add("fa-regular", "fa-o", "fa-5x")
             turn = "1"
         }
         
     })
  })
-
-const reset_btn = document.getElementById("reset");
-reset_btn.addEventListener("click", () =>{
-    Array.from(boxes).forEach(item =>{
-        item.classList.remove("fa-solid", "fa-xmark", "fa-5x", "fa-regular", "fa-o", "fa-5x" 
-        )})
-    turn = "1"
-
-})
-const exit_btn = document.getElementById("exit");
-exit_btn.addEventListener("click", () =>{
-    window.location.reload()
-});
