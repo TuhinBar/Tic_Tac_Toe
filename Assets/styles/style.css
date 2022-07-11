@@ -200,15 +200,22 @@ body{
 }
 .player-names-score{
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   margin: 1rem auto;
 }
 #fa-arrow{
   margin: 0 3rem;
+  position: fixed;
 }
 #fa-arrow-psuedo{
   margin: 0 5rem;
   opacity: 0;
+}
+#score-1{
+  margin-right: 5rem;
+}
+#score-2{
+  margin-left: 5rem;
 }
 .reset-exit{
   display: flex;
