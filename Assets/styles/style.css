@@ -20,16 +20,13 @@ body{
     
 }
 .container{
-    margin: 4rem auto 0 auto;
+    margin: 3rem auto 0 auto;
     display: flex;
     justify-content: space-around;
 }
 .player-name{
   color: #E74C3C;
-}
-.player-name{
-  border-bottom: 3px solid #66bfbf ;
-  border-radius: 5px;
+  border-bottom: 3px solid #66bfbf;
 }
 .player-name:hover{
   color: #FF0063;
