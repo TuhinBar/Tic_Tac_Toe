@@ -285,6 +285,16 @@ h3:after,
   display: block;
 }
 
+.message_box{
+ 
+  background-color: #E74C3C;
+  height: 100px;
+  width: 100px;
+}
+.message_box_hidden{
+  visibility: hidden;
+}
+
 
 
 
