@@ -5,6 +5,17 @@ let play = document.getElementById("play");
 // console.log(modal);
 let modal = document.getElementById("modal");
 
+//range js
+var range = document.querySelector('input[type="range"]');
+
+var rangeValue = function(){
+  var newValue = range.value;
+  var target = document.querySelector('.value');
+  target.innerHTML = newValue;
+}
+
+elem.addEventListener("input", rangeValue);
+
 play.addEventListener("click", () => {
   let player1 = document.getElementById("player1").value;
   let player2 = document.getElementById("player2").value;
