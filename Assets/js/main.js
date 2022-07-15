@@ -223,15 +223,20 @@ function reset_function() {
   arr_x = [];
   arr_o = [];
   clicked_box = [];
+  let win_modal= document.getElementById("win_modal");
   let message_box = document.getElementById("message_box");
+  win_modal.classList.add("win_modal_hidden");
   message_box.classList.add("message_box_hidden");
 }
 
 // winning modal
 
 function win_modal() {
+  let win_modal = document.getElementById("win_modal");
   let message_box = document.getElementById("message_box");
+  console.log(message_box);
   message_box.classList.remove("message_box_hidden");
+  win_modal.classList.remove("win_modal_hidden");
   let won = document.getElementById("won");
   won.addEventListener("click", reset_function);
 }
