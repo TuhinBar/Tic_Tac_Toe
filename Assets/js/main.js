@@ -41,7 +41,7 @@ Array.from(boxes).forEach((item) => {
 
     //here if turn is 1, then adding that box's id to arr_x array
     if (turn == "1" && clicked_box.includes(item.id) == false) {
-      item.classList.add("fa-solid", "fa-xmark", "fa-3x");
+      item.classList.add("fa-solid", "fa-xmark", "fa-3x", "color_x");
       arr_x.push(item.id);
       clicked_box.push(item.id);
 
@@ -53,14 +53,14 @@ Array.from(boxes).forEach((item) => {
           (arr_x.includes("box4") == true && arr_x.includes("box7") == true) ||
           (arr_x.includes("box5") == true && arr_x.includes("box9") == true)
         ) {
-          win_modal();
+          reset_modal();
         }
       } else if (item.id == "box2") {
         if (
           (arr_x.includes("box1") == true && arr_x.includes("box3") == true) ||
           (arr_x.includes("box5") == true && arr_x.includes("box8") == true)
         ) {
-          win_modal();
+          reset_modal();
         }
       } else if (item.id == "box3") {
         if (
@@ -68,14 +68,14 @@ Array.from(boxes).forEach((item) => {
           (arr_x.includes("box5") == true && arr_x.includes("box7") == true) ||
           (arr_x.includes("box6") == true && arr_x.includes("box9") == true)
         ) {
-          win_modal();
+          reset_modal();
         }
       } else if (item.id == "box4") {
         if (
           (arr_x.includes("box1") == true && arr_x.includes("box7") == true) ||
           (arr_x.includes("box5") == true && arr_x.includes("box6") == true)
         ) {
-          win_modal();
+          reset_modal();
         }
       } else if (item.id == "box5") {
         if (
@@ -84,14 +84,14 @@ Array.from(boxes).forEach((item) => {
           (arr_x.includes("box3") == true && arr_x.includes("box7") == true) ||
           (arr_x.includes("box4") == true && arr_x.includes("box6") == true)
         ) {
-          win_modal();
+          reset_modal();
         }
       } else if (item.id == "box6") {
         if (
           (arr_x.includes("box5") == true && arr_x.includes("box4") == true) ||
           (arr_x.includes("box3") == true && arr_x.includes("box9") == true)
         ) {
-          win_modal();
+          reset_modal();
         }
       } else if (item.id == "box7") {
         if (
@@ -99,14 +99,14 @@ Array.from(boxes).forEach((item) => {
           (arr_x.includes("box4") == true && arr_x.includes("box1") == true) ||
           (arr_x.includes("box8") == true && arr_x.includes("box9") == true)
         ) {
-          win_modal();
+          reset_modal();
         }
       } else if (item.id == "box8") {
         if (
           (arr_x.includes("box2") == true && arr_x.includes("box5") == true) ||
           (arr_x.includes("box7") == true && arr_x.includes("box9") == true)
         ) {
-          win_modal();
+          reset_modal();
         }
       } else if (item.id == "box9") {
         if (
@@ -114,32 +114,32 @@ Array.from(boxes).forEach((item) => {
           (arr_x.includes("box6") == true && arr_x.includes("box3") == true) ||
           (arr_x.includes("box5") == true && arr_x.includes("box1") == true)
         ) {
-          win_modal();
+          reset_modal();
         }
       }
       turn = "0";
       //here if turn is 1, then adding that box's id to arr_x array
     } else if (turn == "0" && clicked_box.includes(item.id) == false) {
-      item.classList.add("fa-regular", "fa-o", "fa-3x");
+      item.classList.add("fa-regular", "fa-o", "fa-3x", "color_o");
       arr_o.push(item.id);
       clicked_box.push(item.id);
 
       //now for each box checking if its' complimentary boxes are in arr_x or not || if yes then that entry won
       if (item.id == "box1") {
-        console.log("box 1 clicked");
         if (
           (arr_o.includes("box2") == true && arr_o.includes("box3") == true) ||
           (arr_o.includes("box4") == true && arr_o.includes("box7") == true) ||
           (arr_o.includes("box5") == true && arr_o.includes("box9") == true)
         ) {
-          win_modal();
+          reset_modal();
+          // reset_modal();
         }
       } else if (item.id == "box2") {
         if (
           (arr_o.includes("box1") == true && arr_o.includes("box3") == true) ||
           (arr_o.includes("box5") == true && arr_o.includes("box8") == true)
         ) {
-          win_modal();
+          reset_modal();
         }
       } else if (item.id == "box3") {
         if (
@@ -147,14 +147,14 @@ Array.from(boxes).forEach((item) => {
           (arr_o.includes("box5") == true && arr_o.includes("box7") == true) ||
           (arr_o.includes("box6") == true && arr_o.includes("box9") == true)
         ) {
-          win_modal();
+          reset_modal();
         }
       } else if (item.id == "box4") {
         if (
           (arr_o.includes("box1") == true && arr_o.includes("box7") == true) ||
           (arr_o.includes("box5") == true && arr_o.includes("box6") == true)
         ) {
-          win_modal();
+          reset_modal();
         }
       } else if (item.id == "box5") {
         if (
@@ -163,14 +163,14 @@ Array.from(boxes).forEach((item) => {
           (arr_o.includes("box3") == true && arr_o.includes("box7") == true) ||
           (arr_o.includes("box4") == true && arr_o.includes("box6") == true)
         ) {
-          win_modal();
+          reset_modal();
         }
       } else if (item.id == "box6") {
         if (
           (arr_o.includes("box5") == true && arr_o.includes("box4") == true) ||
           (arr_o.includes("box3") == true && arr_o.includes("box9") == true)
         ) {
-          win_modal();
+          reset_modal();
         }
       } else if (item.id == "box7") {
         if (
@@ -178,14 +178,14 @@ Array.from(boxes).forEach((item) => {
           (arr_o.includes("box4") == true && arr_o.includes("box1") == true) ||
           (arr_o.includes("box8") == true && arr_o.includes("box9") == true)
         ) {
-          win_modal();
+          reset_modal();
         }
       } else if (item.id == "box8") {
         if (
           (arr_o.includes("box2") == true && arr_o.includes("box5") == true) ||
           (arr_o.includes("box7") == true && arr_o.includes("box9") == true)
         ) {
-          win_modal();
+          reset_modal();
         }
       } else if (item.id == "box9") {
         if (
@@ -193,7 +193,7 @@ Array.from(boxes).forEach((item) => {
           (arr_o.includes("box6") == true && arr_o.includes("box3") == true) ||
           (arr_o.includes("box5") == true && arr_o.includes("box1") == true)
         ) {
-          win_modal();
+          reset_modal();
         }
       }
 
@@ -227,27 +227,41 @@ function reset_function() {
       "fa-5x",
       "fa-regular",
       "fa-o",
-      "fa-5x"
+      "fa-5x",
+      "color_x",
+      "color_o"
     );
   });
   turn = "1";
   arr_x = [];
   arr_o = [];
   clicked_box = [];
-  let win_modal= document.getElementById("win_modal");
-  let message_box = document.getElementById("message_box");
-  win_modal.classList.add("win_modal_hidden");
-  message_box.classList.add("message_box_hidden");
+  let reset_modal = document.getElementById("end");
+  reset_modal.classList.add("end_hidden");
+  // let win_modal= document.getElementById("win_modal");
+  // let message_box = document.getElementById("message_box");
+  // win_modal.classList.add("win_modal_hidden");
+  // message_box.classList.add("message_box_hidden");
+}
+//reset after win
+function reset_modal(){
+  let reset_modal = document.getElementById("end");
+  reset_modal.classList.remove("end_hidden");
+  let win_reset = document.getElementById("win_reset");
+  win_reset.addEventListener("click", ()=>{
+    reset_function();
+  })
+
 }
 
 // winning modal
 
-function win_modal() {
-  let win_modal = document.getElementById("win_modal");
-  let message_box = document.getElementById("message_box");
-  console.log(message_box);
-  message_box.classList.remove("message_box_hidden");
-  win_modal.classList.remove("win_modal_hidden");
-  let won = document.getElementById("won");
-  won.addEventListener("click", reset_function);
-}
+// function win_modal() {
+//   let win_modal = document.getElementById("win_modal");
+//   let message_box = document.getElementById("message_box");
+//   console.log(message_box);
+//   message_box.classList.remove("message_box_hidden");
+//   win_modal.classList.remove("win_modal_hidden");
+//   let won = document.getElementById("won");
+//   won.addEventListener("click", reset_function);
+// }
