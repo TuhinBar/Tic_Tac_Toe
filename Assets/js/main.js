@@ -14,7 +14,7 @@ var rangeValue = function(){
   target.innerHTML = newValue;
 }
 
-elem.addEventListener("input", rangeValue);
+range.addEventListener("input", rangeValue);
 
 play.addEventListener("click", () => {
   let player1 = document.getElementById("player1").value;
