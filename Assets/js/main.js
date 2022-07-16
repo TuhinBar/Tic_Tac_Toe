@@ -434,12 +434,12 @@ function draw_reset_modal(){
 // }
 // winning modal
 
-// function win_modal() {
-//   let win_modal = document.getElementById("win_modal");
-//   let message_box = document.getElementById("message_box");
-//   console.log(message_box);
-//   message_box.classList.remove("message_box_hidden");
-//   win_modal.classList.remove("win_modal_hidden");
-//   let won = document.getElementById("won");
-//   won.addEventListener("click", reset_function);
-// }
+function win_modal() {
+  let win_modal = document.getElementById("win_modal");
+  let message_box = document.getElementById("message_box");
+  console.log(message_box);
+  message_box.classList.remove("message_box_hidden");
+  win_modal.classList.remove("win_modal_hidden");
+  let won = document.getElementById("won");
+  won.addEventListener("click", reset_function);
+}
