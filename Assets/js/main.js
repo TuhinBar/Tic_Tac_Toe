@@ -33,7 +33,8 @@ play.addEventListener("click", () => {
   console.log("close the modal");
   modal.classList.add("modal_close");
 });
-var roundsWon= 0;
+var roundsWon_x = 0;
+var roundsWon_o = 0;
 let clicked_box = [];
 let arr_x = [];
 let arr_o = [];
@@ -58,9 +59,9 @@ Array.from(boxes).forEach((item) => {
           (arr_x.includes("box4") == true && arr_x.includes("box7") == true) ||
           (arr_x.includes("box5") == true && arr_x.includes("box9") == true)
         ) {
-          roundsWon++;
-          player1Score.innerHTML= roundsWon;
-          if(roundsWon==rounds){
+          roundsWon_x++;
+          player1Score.innerHTML= roundsWon_x;
+          if(roundsWon_x==rounds){
             alert("you won")
           }
           reset_modal();
@@ -70,9 +71,9 @@ Array.from(boxes).forEach((item) => {
           (arr_x.includes("box1") == true && arr_x.includes("box3") == true) ||
           (arr_x.includes("box5") == true && arr_x.includes("box8") == true)
         ) {
-          roundsWon++;
-          player1Score.innerHTML= roundsWon;
-          if(roundsWon==rounds){
+          roundsWon_x++;
+          player1Score.innerHTML= roundsWon_x;
+          if(roundsWon_x==rounds){
             alert("you won")
           }
           reset_modal();
@@ -83,9 +84,9 @@ Array.from(boxes).forEach((item) => {
           (arr_x.includes("box5") == true && arr_x.includes("box7") == true) ||
           (arr_x.includes("box6") == true && arr_x.includes("box9") == true)
         ) {
-          roundsWon++;
-          player1Score.innerHTML= roundsWon;
-          if(roundsWon==rounds){
+          roundsWon_x++;
+          player1Score.innerHTML= roundsWon_x;
+          if(roundsWon_x==rounds){
             alert("you won")
           }
           reset_modal();
@@ -95,9 +96,9 @@ Array.from(boxes).forEach((item) => {
           (arr_x.includes("box1") == true && arr_x.includes("box7") == true) ||
           (arr_x.includes("box5") == true && arr_x.includes("box6") == true)
         ) {
-          roundsWon++;
-          player1Score.innerHTML= roundsWon;
-          if(roundsWon==rounds){
+          roundsWon_x++;
+          player1Score.innerHTML= roundsWon_x;
+          if(roundsWon_x==rounds){
             alert("you won")
           }
           reset_modal();
@@ -109,9 +110,9 @@ Array.from(boxes).forEach((item) => {
           (arr_x.includes("box3") == true && arr_x.includes("box7") == true) ||
           (arr_x.includes("box4") == true && arr_x.includes("box6") == true)
         ) {
-          roundsWon++;
-          player1Score.innerHTML= roundsWon;
-          if(roundsWon==rounds){
+          roundsWon_x++;
+          player1Score.innerHTML= roundsWon_x;
+          if(roundsWon_x==rounds){
             alert("you won")
           }
           reset_modal();
@@ -121,9 +122,9 @@ Array.from(boxes).forEach((item) => {
           (arr_x.includes("box5") == true && arr_x.includes("box4") == true) ||
           (arr_x.includes("box3") == true && arr_x.includes("box9") == true)
         ) {
-          roundsWon++;
-          player1Score.innerHTML= roundsWon;
-          if(roundsWon==rounds){
+          roundsWon_x++;
+          player1Score.innerHTML= roundsWon_x;
+          if(roundsWon_x==rounds){
             alert("you won")
           }
           reset_modal();
@@ -134,9 +135,9 @@ Array.from(boxes).forEach((item) => {
           (arr_x.includes("box4") == true && arr_x.includes("box1") == true) ||
           (arr_x.includes("box8") == true && arr_x.includes("box9") == true)
         ) {
-          roundsWon++;
-          player1Score.innerHTML= roundsWon;
-          if(roundsWon==rounds){
+          roundsWon_x++;
+          player1Score.innerHTML= roundsWon_x;
+          if(roundsWon_x==rounds){
             alert("you won")
           }
           reset_modal();
@@ -146,9 +147,9 @@ Array.from(boxes).forEach((item) => {
           (arr_x.includes("box2") == true && arr_x.includes("box5") == true) ||
           (arr_x.includes("box7") == true && arr_x.includes("box9") == true)
         ) {
-          roundsWon++;
-          player1Score.innerHTML= roundsWon;
-          if(roundsWon==rounds){
+          roundsWon_x++;
+          player1Score.innerHTML= roundsWon_x;
+          if(roundsWon_x==rounds){
             alert("you won")
           }
           reset_modal();
@@ -159,9 +160,9 @@ Array.from(boxes).forEach((item) => {
           (arr_x.includes("box6") == true && arr_x.includes("box3") == true) ||
           (arr_x.includes("box5") == true && arr_x.includes("box1") == true)
         ) {
-          roundsWon++;
-          player1Score.innerHTML= roundsWon;
-          if(roundsWon==rounds){
+          roundsWon_x++;
+          player1Score.innerHTML= roundsWon_x;
+          if(roundsWon_x==rounds){
             alert("you won")
           }
           reset_modal();
@@ -181,9 +182,9 @@ Array.from(boxes).forEach((item) => {
           (arr_o.includes("box4") == true && arr_o.includes("box7") == true) ||
           (arr_o.includes("box5") == true && arr_o.includes("box9") == true)
         ) {
-          roundsWon++;
-          player2Score.innerHTML= roundsWon;
-          if(roundsWon==rounds){
+          roundsWon_o++;
+          player2Score.innerHTML= roundsWon_o;
+          if(roundsWon_o==rounds){
             alert("you won")
           }
           reset_modal();
@@ -194,9 +195,9 @@ Array.from(boxes).forEach((item) => {
           (arr_o.includes("box1") == true && arr_o.includes("box3") == true) ||
           (arr_o.includes("box5") == true && arr_o.includes("box8") == true)
         ) {
-          roundsWon++;
-          player2Score.innerHTML= roundsWon;
-          if(roundsWon==rounds){
+          roundsWon_o++;
+          player2Score.innerHTML= roundsWon_o;
+          if(roundsWon_o==rounds){
             alert("you won")
           }
           reset_modal();
@@ -207,9 +208,9 @@ Array.from(boxes).forEach((item) => {
           (arr_o.includes("box5") == true && arr_o.includes("box7") == true) ||
           (arr_o.includes("box6") == true && arr_o.includes("box9") == true)
         ) {
-          roundsWon++;
-          player2Score.innerHTML= roundsWon;
-          if(roundsWon==rounds){
+          roundsWon_o++;
+          player2Score.innerHTML= roundsWon_o;
+          if(roundsWon_o==rounds){
             alert("you won")
           }
           reset_modal();
@@ -219,9 +220,9 @@ Array.from(boxes).forEach((item) => {
           (arr_o.includes("box1") == true && arr_o.includes("box7") == true) ||
           (arr_o.includes("box5") == true && arr_o.includes("box6") == true)
         ) {
-          roundsWon++;
-          player2Score.innerHTML= roundsWon;
-          if(roundsWon==rounds){
+          roundsWon_o++;
+          player2Score.innerHTML= roundsWon_o;
+          if(roundsWon_o==rounds){
             alert("you won")
           }
           reset_modal();
@@ -233,9 +234,9 @@ Array.from(boxes).forEach((item) => {
           (arr_o.includes("box3") == true && arr_o.includes("box7") == true) ||
           (arr_o.includes("box4") == true && arr_o.includes("box6") == true)
         ) {
-          roundsWon++;
-          player2Score.innerHTML= roundsWon;
-          if(roundsWon==rounds){
+          roundsWon_o++;
+          player2Score.innerHTML= roundsWon_o;
+          if(roundsWon_o==rounds){
             alert("you won")
           }
           reset_modal();
@@ -245,9 +246,9 @@ Array.from(boxes).forEach((item) => {
           (arr_o.includes("box5") == true && arr_o.includes("box4") == true) ||
           (arr_o.includes("box3") == true && arr_o.includes("box9") == true)
         ) {
-          roundsWon++;
-          player2Score.innerHTML= roundsWon;
-          if(roundsWon==rounds){
+          roundsWon_o++;
+          player2Score.innerHTML= roundsWon_o;
+          if(roundsWon_o==rounds){
             alert("you won")
           }
           reset_modal();
@@ -258,9 +259,9 @@ Array.from(boxes).forEach((item) => {
           (arr_o.includes("box4") == true && arr_o.includes("box1") == true) ||
           (arr_o.includes("box8") == true && arr_o.includes("box9") == true)
         ) {
-          roundsWon++;
-          player2Score.innerHTML= roundsWon;
-          if(roundsWon==rounds){
+          roundsWon_o++;
+          player2Score.innerHTML= roundsWon_o;
+          if(roundsWon_o==rounds){
             alert("you won")
           }
           reset_modal();
@@ -270,9 +271,9 @@ Array.from(boxes).forEach((item) => {
           (arr_o.includes("box2") == true && arr_o.includes("box5") == true) ||
           (arr_o.includes("box7") == true && arr_o.includes("box9") == true)
         ) {
-          roundsWon++;
-          player2Score.innerHTML= roundsWon;
-          if(roundsWon==rounds){
+          roundsWon_o++;
+          player2Score.innerHTML= roundsWon_o;
+          if(roundsWon_o==rounds){
             alert("you won")
           }
           reset_modal();
@@ -283,9 +284,9 @@ Array.from(boxes).forEach((item) => {
           (arr_o.includes("box6") == true && arr_o.includes("box3") == true) ||
           (arr_o.includes("box5") == true && arr_o.includes("box1") == true)
         ) {
-          roundsWon++;
-          player2Score.innerHTML= roundsWon;
-          if(roundsWon==rounds){
+          roundsWon_o++;
+          player2Score.innerHTML= roundsWon_o;
+          if(roundsWon_o==rounds){
             alert("you won")
           }
           reset_modal();
