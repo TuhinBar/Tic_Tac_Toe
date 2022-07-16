@@ -66,6 +66,9 @@ Array.from(boxes).forEach((item) => {
           }
           reset_modal();
         }
+        else if (clicked_box.length == 9) {
+          draw_reset_modal();
+        }
       } else if (item.id == "box2") {
         if (
           (arr_x.includes("box1") == true && arr_x.includes("box3") == true) ||
@@ -77,6 +80,9 @@ Array.from(boxes).forEach((item) => {
             alert("you won")
           }
           reset_modal();
+        }
+        else if (clicked_box.length == 9) {
+          draw_reset_modal();
         }
       } else if (item.id == "box3") {
         if (
@@ -91,6 +97,9 @@ Array.from(boxes).forEach((item) => {
           }
           reset_modal();
         }
+        else if (clicked_box.length == 9) {
+          draw_reset_modal();
+        }
       } else if (item.id == "box4") {
         if (
           (arr_x.includes("box1") == true && arr_x.includes("box7") == true) ||
@@ -102,6 +111,9 @@ Array.from(boxes).forEach((item) => {
             alert("you won")
           }
           reset_modal();
+        }
+        else if (clicked_box.length == 9) {
+          draw_reset_modal();
         }
       } else if (item.id == "box5") {
         if (
@@ -117,6 +129,9 @@ Array.from(boxes).forEach((item) => {
           }
           reset_modal();
         }
+        else if (clicked_box.length == 9) {
+          draw_reset_modal();
+        }
       } else if (item.id == "box6") {
         if (
           (arr_x.includes("box5") == true && arr_x.includes("box4") == true) ||
@@ -128,6 +143,9 @@ Array.from(boxes).forEach((item) => {
             alert("you won")
           }
           reset_modal();
+        }
+        else if (clicked_box.length == 9) {
+          draw_reset_modal();
         }
       } else if (item.id == "box7") {
         if (
@@ -142,6 +160,9 @@ Array.from(boxes).forEach((item) => {
           }
           reset_modal();
         }
+        else if (clicked_box.length == 9) {
+          draw_reset_modal();
+        }
       } else if (item.id == "box8") {
         if (
           (arr_x.includes("box2") == true && arr_x.includes("box5") == true) ||
@@ -153,6 +174,9 @@ Array.from(boxes).forEach((item) => {
             alert("you won")
           }
           reset_modal();
+        }
+        else if (clicked_box.length == 9) {
+          draw_reset_modal();
         }
       } else if (item.id == "box9") {
         if (
@@ -166,6 +190,9 @@ Array.from(boxes).forEach((item) => {
             alert("you won")
           }
           reset_modal();
+        }
+        else if (clicked_box.length == 9) {
+          draw_reset_modal();
         }
       }
       turn = "0";
@@ -190,6 +217,9 @@ Array.from(boxes).forEach((item) => {
           reset_modal();
           // reset_modal();
         }
+        else if (clicked_box.length == 9) {
+          draw_reset_modal();
+        }
       } else if (item.id == "box2") {
         if (
           (arr_o.includes("box1") == true && arr_o.includes("box3") == true) ||
@@ -201,6 +231,9 @@ Array.from(boxes).forEach((item) => {
             alert("you won")
           }
           reset_modal();
+        }
+        else if (clicked_box.length == 9) {
+          draw_reset_modal();
         }
       } else if (item.id == "box3") {
         if (
@@ -215,6 +248,9 @@ Array.from(boxes).forEach((item) => {
           }
           reset_modal();
         }
+        else if (clicked_box.length == 9) {
+          draw_reset_modal();
+        }
       } else if (item.id == "box4") {
         if (
           (arr_o.includes("box1") == true && arr_o.includes("box7") == true) ||
@@ -226,6 +262,9 @@ Array.from(boxes).forEach((item) => {
             alert("you won")
           }
           reset_modal();
+        }
+        else if (clicked_box.length == 9) {
+          draw_reset_modal();
         }
       } else if (item.id == "box5") {
         if (
@@ -241,6 +280,9 @@ Array.from(boxes).forEach((item) => {
           }
           reset_modal();
         }
+        else if (clicked_box.length == 9) {
+          draw_reset_modal();
+        }
       } else if (item.id == "box6") {
         if (
           (arr_o.includes("box5") == true && arr_o.includes("box4") == true) ||
@@ -252,6 +294,9 @@ Array.from(boxes).forEach((item) => {
             alert("you won")
           }
           reset_modal();
+        }
+        else if (clicked_box.length == 9) {
+          draw_reset_modal();
         }
       } else if (item.id == "box7") {
         if (
@@ -266,6 +311,9 @@ Array.from(boxes).forEach((item) => {
           }
           reset_modal();
         }
+        else if (clicked_box.length == 9) {
+          draw_reset_modal();
+        }
       } else if (item.id == "box8") {
         if (
           (arr_o.includes("box2") == true && arr_o.includes("box5") == true) ||
@@ -277,6 +325,9 @@ Array.from(boxes).forEach((item) => {
             alert("you won")
           }
           reset_modal();
+        }
+        else if (clicked_box.length == 9) {
+          draw_reset_modal();
         }
       } else if (item.id == "box9") {
         if (
@@ -291,14 +342,23 @@ Array.from(boxes).forEach((item) => {
           }
           reset_modal();
         }
+        else if (clicked_box.length == 9) {
+          draw_reset_modal();
+        }
       }
+
 
       turn = "1";
     }
+    if (clicked_box.length == 9) {
+      draw_reset_modal();
+    }
+    
     
   });
-//   alert('draw')
+  
 });
+
 
 
 const reset_btn = document.getElementById("reset");
@@ -336,6 +396,8 @@ function reset_function() {
   // console.log(player1Score);
   let reset_modal = document.getElementById("end");
   reset_modal.classList.add("end_hidden");
+  let draw_reset_modal = document.getElementById("draw");
+  draw_reset_modal.classList.add("end_hidden");
   // let win_modal= document.getElementById("win_modal");
   // let message_box = document.getElementById("message_box");
   // win_modal.classList.add("win_modal_hidden");
@@ -345,12 +407,22 @@ function reset_function() {
 function reset_modal(){
   let reset_modal = document.getElementById("end");
   reset_modal.classList.remove("end_hidden");
-  let win_reset = document.getElementById("win_reset");
-  win_reset.addEventListener("click", ()=>{
+  reset_modal.addEventListener("click", ()=>{
     reset_function();
   })
 
 };
+
+function draw_reset_modal(){
+  let draw_reset_modal = document.getElementById("draw");
+  draw_reset_modal.classList.remove("end_hidden");
+  draw_reset_modal.addEventListener("click", ()=>{
+    reset_function();
+  })
+  
+  
+
+}
 
 // Winning targated rounds
 // function gameWonx(){
