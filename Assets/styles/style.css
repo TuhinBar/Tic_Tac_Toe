@@ -215,16 +215,21 @@ input[type="range"] {
   height: 95px;
   margin: 7px;
   background-color: #b7d3df;
+  box-shadow: 1px 2px 2px 1px #888888;
+
+  /* box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px; */
+  
+ 
 }
 .box:hover {
   background-color: #66bfbf;
-  transition: 0.2s ease-out;
+  transition: 0.s ease-in-out;
 }
 .box_win {
   background-color: #e74c3c;
 }
 .color_x{
-  background-color: #73A9AD;
+  background-color: #4cb0b8;
 }
 .color_o{
   background-color: #A8A4CE ;
