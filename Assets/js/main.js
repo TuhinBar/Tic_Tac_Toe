@@ -7,14 +7,18 @@ let modal = document.getElementById("modal");
 
 //range js
 var range = document.querySelector('input[type="range"]');
+var rounds  = document.getElementById("rounds").value;
 
 var rangeValue = function(){
   var newValue = range.value;
   var target = document.querySelector('.value');
   target.innerHTML = newValue;
+  rounds= target.innerHTML;
 }
 
 range.addEventListener("input", rangeValue);
+var player1Score = document.getElementById("plrscr1");
+var player2Score = document.getElementById("plrscr2");
 
 play.addEventListener("click", () => {
   let player1 = document.getElementById("player1").value;
@@ -29,6 +33,7 @@ play.addEventListener("click", () => {
   console.log("close the modal");
   modal.classList.add("modal_close");
 });
+var roundsWon= 0;
 let clicked_box = [];
 let arr_x = [];
 let arr_o = [];
@@ -53,6 +58,11 @@ Array.from(boxes).forEach((item) => {
           (arr_x.includes("box4") == true && arr_x.includes("box7") == true) ||
           (arr_x.includes("box5") == true && arr_x.includes("box9") == true)
         ) {
+          roundsWon++;
+          player1Score.innerHTML= roundsWon;
+          if(roundsWon==rounds){
+            alert("you won")
+          }
           reset_modal();
         }
       } else if (item.id == "box2") {
@@ -60,6 +70,11 @@ Array.from(boxes).forEach((item) => {
           (arr_x.includes("box1") == true && arr_x.includes("box3") == true) ||
           (arr_x.includes("box5") == true && arr_x.includes("box8") == true)
         ) {
+          roundsWon++;
+          player1Score.innerHTML= roundsWon;
+          if(roundsWon==rounds){
+            alert("you won")
+          }
           reset_modal();
         }
       } else if (item.id == "box3") {
@@ -68,6 +83,11 @@ Array.from(boxes).forEach((item) => {
           (arr_x.includes("box5") == true && arr_x.includes("box7") == true) ||
           (arr_x.includes("box6") == true && arr_x.includes("box9") == true)
         ) {
+          roundsWon++;
+          player1Score.innerHTML= roundsWon;
+          if(roundsWon==rounds){
+            alert("you won")
+          }
           reset_modal();
         }
       } else if (item.id == "box4") {
@@ -75,6 +95,11 @@ Array.from(boxes).forEach((item) => {
           (arr_x.includes("box1") == true && arr_x.includes("box7") == true) ||
           (arr_x.includes("box5") == true && arr_x.includes("box6") == true)
         ) {
+          roundsWon++;
+          player1Score.innerHTML= roundsWon;
+          if(roundsWon==rounds){
+            alert("you won")
+          }
           reset_modal();
         }
       } else if (item.id == "box5") {
@@ -84,6 +109,11 @@ Array.from(boxes).forEach((item) => {
           (arr_x.includes("box3") == true && arr_x.includes("box7") == true) ||
           (arr_x.includes("box4") == true && arr_x.includes("box6") == true)
         ) {
+          roundsWon++;
+          player1Score.innerHTML= roundsWon;
+          if(roundsWon==rounds){
+            alert("you won")
+          }
           reset_modal();
         }
       } else if (item.id == "box6") {
@@ -91,6 +121,11 @@ Array.from(boxes).forEach((item) => {
           (arr_x.includes("box5") == true && arr_x.includes("box4") == true) ||
           (arr_x.includes("box3") == true && arr_x.includes("box9") == true)
         ) {
+          roundsWon++;
+          player1Score.innerHTML= roundsWon;
+          if(roundsWon==rounds){
+            alert("you won")
+          }
           reset_modal();
         }
       } else if (item.id == "box7") {
@@ -99,6 +134,11 @@ Array.from(boxes).forEach((item) => {
           (arr_x.includes("box4") == true && arr_x.includes("box1") == true) ||
           (arr_x.includes("box8") == true && arr_x.includes("box9") == true)
         ) {
+          roundsWon++;
+          player1Score.innerHTML= roundsWon;
+          if(roundsWon==rounds){
+            alert("you won")
+          }
           reset_modal();
         }
       } else if (item.id == "box8") {
@@ -106,6 +146,11 @@ Array.from(boxes).forEach((item) => {
           (arr_x.includes("box2") == true && arr_x.includes("box5") == true) ||
           (arr_x.includes("box7") == true && arr_x.includes("box9") == true)
         ) {
+          roundsWon++;
+          player1Score.innerHTML= roundsWon;
+          if(roundsWon==rounds){
+            alert("you won")
+          }
           reset_modal();
         }
       } else if (item.id == "box9") {
@@ -114,6 +159,11 @@ Array.from(boxes).forEach((item) => {
           (arr_x.includes("box6") == true && arr_x.includes("box3") == true) ||
           (arr_x.includes("box5") == true && arr_x.includes("box1") == true)
         ) {
+          roundsWon++;
+          player1Score.innerHTML= roundsWon;
+          if(roundsWon==rounds){
+            alert("you won")
+          }
           reset_modal();
         }
       }
@@ -131,6 +181,11 @@ Array.from(boxes).forEach((item) => {
           (arr_o.includes("box4") == true && arr_o.includes("box7") == true) ||
           (arr_o.includes("box5") == true && arr_o.includes("box9") == true)
         ) {
+          roundsWon++;
+          player2Score.innerHTML= roundsWon;
+          if(roundsWon==rounds){
+            alert("you won")
+          }
           reset_modal();
           // reset_modal();
         }
@@ -139,6 +194,11 @@ Array.from(boxes).forEach((item) => {
           (arr_o.includes("box1") == true && arr_o.includes("box3") == true) ||
           (arr_o.includes("box5") == true && arr_o.includes("box8") == true)
         ) {
+          roundsWon++;
+          player2Score.innerHTML= roundsWon;
+          if(roundsWon==rounds){
+            alert("you won")
+          }
           reset_modal();
         }
       } else if (item.id == "box3") {
@@ -147,6 +207,11 @@ Array.from(boxes).forEach((item) => {
           (arr_o.includes("box5") == true && arr_o.includes("box7") == true) ||
           (arr_o.includes("box6") == true && arr_o.includes("box9") == true)
         ) {
+          roundsWon++;
+          player2Score.innerHTML= roundsWon;
+          if(roundsWon==rounds){
+            alert("you won")
+          }
           reset_modal();
         }
       } else if (item.id == "box4") {
@@ -154,6 +219,11 @@ Array.from(boxes).forEach((item) => {
           (arr_o.includes("box1") == true && arr_o.includes("box7") == true) ||
           (arr_o.includes("box5") == true && arr_o.includes("box6") == true)
         ) {
+          roundsWon++;
+          player2Score.innerHTML= roundsWon;
+          if(roundsWon==rounds){
+            alert("you won")
+          }
           reset_modal();
         }
       } else if (item.id == "box5") {
@@ -163,6 +233,11 @@ Array.from(boxes).forEach((item) => {
           (arr_o.includes("box3") == true && arr_o.includes("box7") == true) ||
           (arr_o.includes("box4") == true && arr_o.includes("box6") == true)
         ) {
+          roundsWon++;
+          player2Score.innerHTML= roundsWon;
+          if(roundsWon==rounds){
+            alert("you won")
+          }
           reset_modal();
         }
       } else if (item.id == "box6") {
@@ -170,6 +245,11 @@ Array.from(boxes).forEach((item) => {
           (arr_o.includes("box5") == true && arr_o.includes("box4") == true) ||
           (arr_o.includes("box3") == true && arr_o.includes("box9") == true)
         ) {
+          roundsWon++;
+          player2Score.innerHTML= roundsWon;
+          if(roundsWon==rounds){
+            alert("you won")
+          }
           reset_modal();
         }
       } else if (item.id == "box7") {
@@ -178,6 +258,11 @@ Array.from(boxes).forEach((item) => {
           (arr_o.includes("box4") == true && arr_o.includes("box1") == true) ||
           (arr_o.includes("box8") == true && arr_o.includes("box9") == true)
         ) {
+          roundsWon++;
+          player2Score.innerHTML= roundsWon;
+          if(roundsWon==rounds){
+            alert("you won")
+          }
           reset_modal();
         }
       } else if (item.id == "box8") {
@@ -185,6 +270,11 @@ Array.from(boxes).forEach((item) => {
           (arr_o.includes("box2") == true && arr_o.includes("box5") == true) ||
           (arr_o.includes("box7") == true && arr_o.includes("box9") == true)
         ) {
+          roundsWon++;
+          player2Score.innerHTML= roundsWon;
+          if(roundsWon==rounds){
+            alert("you won")
+          }
           reset_modal();
         }
       } else if (item.id == "box9") {
@@ -193,6 +283,11 @@ Array.from(boxes).forEach((item) => {
           (arr_o.includes("box6") == true && arr_o.includes("box3") == true) ||
           (arr_o.includes("box5") == true && arr_o.includes("box1") == true)
         ) {
+          roundsWon++;
+          player2Score.innerHTML= roundsWon;
+          if(roundsWon==rounds){
+            alert("you won")
+          }
           reset_modal();
         }
       }
@@ -236,6 +331,8 @@ function reset_function() {
   arr_x = [];
   arr_o = [];
   clicked_box = [];
+  // player1Score = rounds;
+  // console.log(player1Score);
   let reset_modal = document.getElementById("end");
   reset_modal.classList.add("end_hidden");
   // let win_modal= document.getElementById("win_modal");
@@ -252,8 +349,16 @@ function reset_modal(){
     reset_function();
   })
 
-}
+};
 
+// Winning targated rounds
+// function gameWonx(){
+//   roundsWon++;
+//   player1Score.innerHTML= roundsWon;
+//   if(roundsWon==rounds){
+//     alert("you won")
+//   }
+// }
 // winning modal
 
 // function win_modal() {
