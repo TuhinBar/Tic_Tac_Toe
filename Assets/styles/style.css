@@ -127,6 +127,7 @@ input[type="range"] {
 
 .end {
   display: flex;
+  
   background: rgba(95, 95, 95, 0.8);
   bottom: 0px;
   color: #ffffff;
@@ -148,6 +149,7 @@ input[type="range"] {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
   padding: 30%;
 }
 
