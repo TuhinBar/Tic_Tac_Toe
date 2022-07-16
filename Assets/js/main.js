@@ -125,7 +125,7 @@ Array.from(boxes).forEach((item) => {
           roundsWon_x++;
           player1Score.innerHTML= roundsWon_x;
           if(roundsWon_x==rounds){
-            alert("you won")
+            win_modal();
           }
           reset_modal();
         }
