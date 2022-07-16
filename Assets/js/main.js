@@ -62,7 +62,7 @@ Array.from(boxes).forEach((item) => {
           roundsWon_x++;
           player1Score.innerHTML= roundsWon_x;
           if(roundsWon_x==rounds){
-            alert("you won")
+            win_modal();
           }
           reset_modal();
         }
@@ -77,7 +77,7 @@ Array.from(boxes).forEach((item) => {
           roundsWon_x++;
           player1Score.innerHTML= roundsWon_x;
           if(roundsWon_x==rounds){
-            alert("you won")
+            win_modal();
           }
           reset_modal();
         }
@@ -93,7 +93,7 @@ Array.from(boxes).forEach((item) => {
           roundsWon_x++;
           player1Score.innerHTML= roundsWon_x;
           if(roundsWon_x==rounds){
-            alert("you won")
+            win_modal();
           }
           reset_modal();
         }
@@ -108,7 +108,7 @@ Array.from(boxes).forEach((item) => {
           roundsWon_x++;
           player1Score.innerHTML= roundsWon_x;
           if(roundsWon_x==rounds){
-            alert("you won")
+            win_modal();
           }
           reset_modal();
         }
@@ -140,7 +140,7 @@ Array.from(boxes).forEach((item) => {
           roundsWon_x++;
           player1Score.innerHTML= roundsWon_x;
           if(roundsWon_x==rounds){
-            alert("you won")
+            win_modal();
           }
           reset_modal();
         }
@@ -156,7 +156,7 @@ Array.from(boxes).forEach((item) => {
           roundsWon_x++;
           player1Score.innerHTML= roundsWon_x;
           if(roundsWon_x==rounds){
-            alert("you won")
+            win_modal();
           }
           reset_modal();
         }
@@ -171,7 +171,7 @@ Array.from(boxes).forEach((item) => {
           roundsWon_x++;
           player1Score.innerHTML= roundsWon_x;
           if(roundsWon_x==rounds){
-            alert("you won")
+            win_modal();
           }
           reset_modal();
         }
@@ -187,7 +187,7 @@ Array.from(boxes).forEach((item) => {
           roundsWon_x++;
           player1Score.innerHTML= roundsWon_x;
           if(roundsWon_x==rounds){
-            alert("you won")
+            win_modal();
           }
           reset_modal();
         }
@@ -212,7 +212,7 @@ Array.from(boxes).forEach((item) => {
           roundsWon_o++;
           player2Score.innerHTML= roundsWon_o;
           if(roundsWon_o==rounds){
-            alert("you won")
+            win_modal();
           }
           reset_modal();
           // reset_modal();
@@ -228,7 +228,7 @@ Array.from(boxes).forEach((item) => {
           roundsWon_o++;
           player2Score.innerHTML= roundsWon_o;
           if(roundsWon_o==rounds){
-            alert("you won")
+            win_modal();
           }
           reset_modal();
         }
@@ -244,7 +244,7 @@ Array.from(boxes).forEach((item) => {
           roundsWon_o++;
           player2Score.innerHTML= roundsWon_o;
           if(roundsWon_o==rounds){
-            alert("you won")
+            win_modal();
           }
           reset_modal();
         }
@@ -259,7 +259,7 @@ Array.from(boxes).forEach((item) => {
           roundsWon_o++;
           player2Score.innerHTML= roundsWon_o;
           if(roundsWon_o==rounds){
-            alert("you won")
+            win_modal();
           }
           reset_modal();
         }
@@ -276,7 +276,7 @@ Array.from(boxes).forEach((item) => {
           roundsWon_o++;
           player2Score.innerHTML= roundsWon_o;
           if(roundsWon_o==rounds){
-            alert("you won")
+            win_modal();
           }
           reset_modal();
         }
@@ -291,7 +291,7 @@ Array.from(boxes).forEach((item) => {
           roundsWon_o++;
           player2Score.innerHTML= roundsWon_o;
           if(roundsWon_o==rounds){
-            alert("you won")
+            win_modal();
           }
           reset_modal();
         }
@@ -307,7 +307,7 @@ Array.from(boxes).forEach((item) => {
           roundsWon_o++;
           player2Score.innerHTML= roundsWon_o;
           if(roundsWon_o==rounds){
-            alert("you won")
+            win_modal();
           }
           reset_modal();
         }
@@ -322,7 +322,7 @@ Array.from(boxes).forEach((item) => {
           roundsWon_o++;
           player2Score.innerHTML= roundsWon_o;
           if(roundsWon_o==rounds){
-            alert("you won")
+            win_modal();
           }
           reset_modal();
         }
@@ -338,7 +338,7 @@ Array.from(boxes).forEach((item) => {
           roundsWon_o++;
           player2Score.innerHTML= roundsWon_o;
           if(roundsWon_o==rounds){
-            alert("you won")
+            win_modal();
           }
           reset_modal();
         }
@@ -398,10 +398,10 @@ function reset_function() {
   reset_modal.classList.add("end_hidden");
   let draw_reset_modal = document.getElementById("draw");
   draw_reset_modal.classList.add("end_hidden");
-  // let win_modal= document.getElementById("win_modal");
-  // let message_box = document.getElementById("message_box");
-  // win_modal.classList.add("win_modal_hidden");
-  // message_box.classList.add("message_box_hidden");
+  let win_modal= document.getElementById("win_modal");
+  let message_box = document.getElementById("message_box");
+  win_modal.classList.add("win_modal_hidden");
+  message_box.classList.add("message_box_hidden");
 }
 //reset after win
 function reset_modal(){
@@ -441,5 +441,7 @@ function win_modal() {
   message_box.classList.remove("message_box_hidden");
   win_modal.classList.remove("win_modal_hidden");
   let won = document.getElementById("won");
-  won.addEventListener("click", reset_function);
+  won.addEventListener("click", ()=>{
+    window.location.reload();
+  });
 }
