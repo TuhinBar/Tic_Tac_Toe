@@ -344,11 +344,12 @@ h3:hover:after {
 }
 
 #win_modal {
+  
   left: 50%;
   top: 50%;
-  background-color: #76ba99;
+  background-color: rgba(95, 95, 95, 0.8);
   margin: -250px 0 0 -32%;
-  opacity: 1;
+  opacity: 0.9;
   position: absolute;
   width: 65%;
   z-index: 30;
@@ -364,11 +365,12 @@ h3:hover:after {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: #76ba99;
+  background-color: transparent;
   /* z-index: 1; */
   /* position: absolute; */
   border-radius: 5px;
   height: 350px;
+  color: white;
   /* width: 580px; */
 }
 #won {
@@ -379,7 +381,7 @@ h3:hover:after {
 #win_modal .footer {
   text-align: center;
   padding: 10px;
-  color: rgb(23, 17, 17);
+  
 }
 .message_box_hidden {
   visibility: hidden;

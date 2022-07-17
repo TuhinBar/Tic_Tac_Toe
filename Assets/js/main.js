@@ -7,14 +7,14 @@ let modal = document.getElementById("modal");
 
 //range js
 var range = document.querySelector('input[type="range"]');
-var rounds  = document.getElementById("rounds").value;
+var rounds = document.getElementById("rounds").value;
 
-var rangeValue = function(){
+var rangeValue = function () {
   var newValue = range.value;
-  var target = document.querySelector('.value');
+  var target = document.querySelector(".value");
   target.innerHTML = newValue;
-  rounds= target.innerHTML;
-}
+  rounds = target.innerHTML;
+};
 
 range.addEventListener("input", rangeValue);
 var player1Score = document.getElementById("plrscr1");
@@ -60,28 +60,30 @@ Array.from(boxes).forEach((item) => {
           (arr_x.includes("box5") == true && arr_x.includes("box9") == true)
         ) {
           roundsWon_x++;
-          player1Score.innerHTML= roundsWon_x;
-          if(roundsWon_x==rounds){
+          player1Score.innerHTML = roundsWon_x;
+          if (roundsWon_x == rounds) {
             win_modal();
+          } else {
+            reset_modal();
           }
-          reset_modal();
-        }
-        else if (clicked_box.length == 9) {
-          draw_reset_modal();
-        }
+        } else if (clicked_box.length == 9)  {
+            draw_reset_modal();
+          }
+        
       } else if (item.id == "box2") {
         if (
           (arr_x.includes("box1") == true && arr_x.includes("box3") == true) ||
           (arr_x.includes("box5") == true && arr_x.includes("box8") == true)
         ) {
           roundsWon_x++;
-          player1Score.innerHTML= roundsWon_x;
-          if(roundsWon_x==rounds){
+          player1Score.innerHTML = roundsWon_x;
+          if (roundsWon_x == rounds) {
             win_modal();
+          }  else {
+            reset_modal();
           }
-          reset_modal();
-        }
-        else if (clicked_box.length == 9) {
+          
+        } else if (clicked_box.length == 9) {
           draw_reset_modal();
         }
       } else if (item.id == "box3") {
@@ -91,13 +93,13 @@ Array.from(boxes).forEach((item) => {
           (arr_x.includes("box6") == true && arr_x.includes("box9") == true)
         ) {
           roundsWon_x++;
-          player1Score.innerHTML= roundsWon_x;
-          if(roundsWon_x==rounds){
+          player1Score.innerHTML = roundsWon_x;
+          if (roundsWon_x == rounds) {
             win_modal();
+          } else {
+            reset_modal();
           }
-          reset_modal();
-        }
-        else if (clicked_box.length == 9) {
+        } else if (clicked_box.length == 9) {
           draw_reset_modal();
         }
       } else if (item.id == "box4") {
@@ -106,13 +108,13 @@ Array.from(boxes).forEach((item) => {
           (arr_x.includes("box5") == true && arr_x.includes("box6") == true)
         ) {
           roundsWon_x++;
-          player1Score.innerHTML= roundsWon_x;
-          if(roundsWon_x==rounds){
+          player1Score.innerHTML = roundsWon_x;
+          if (roundsWon_x == rounds) {
             win_modal();
+          } else {
+            reset_modal();
           }
-          reset_modal();
-        }
-        else if (clicked_box.length == 9) {
+        } else if (clicked_box.length == 9) {
           draw_reset_modal();
         }
       } else if (item.id == "box5") {
@@ -123,13 +125,13 @@ Array.from(boxes).forEach((item) => {
           (arr_x.includes("box4") == true && arr_x.includes("box6") == true)
         ) {
           roundsWon_x++;
-          player1Score.innerHTML= roundsWon_x;
-          if(roundsWon_x==rounds){
+          player1Score.innerHTML = roundsWon_x;
+          if (roundsWon_x == rounds) {
             win_modal();
+          } else {
+            reset_modal();
           }
-          reset_modal();
-        }
-        else if (clicked_box.length == 9) {
+        } else if (clicked_box.length == 9) {
           draw_reset_modal();
         }
       } else if (item.id == "box6") {
@@ -138,13 +140,13 @@ Array.from(boxes).forEach((item) => {
           (arr_x.includes("box3") == true && arr_x.includes("box9") == true)
         ) {
           roundsWon_x++;
-          player1Score.innerHTML= roundsWon_x;
-          if(roundsWon_x==rounds){
+          player1Score.innerHTML = roundsWon_x;
+          if (roundsWon_x == rounds) {
             win_modal();
+          } else {
+            reset_modal();
           }
-          reset_modal();
-        }
-        else if (clicked_box.length == 9) {
+        } else if (clicked_box.length == 9) {
           draw_reset_modal();
         }
       } else if (item.id == "box7") {
@@ -154,13 +156,13 @@ Array.from(boxes).forEach((item) => {
           (arr_x.includes("box8") == true && arr_x.includes("box9") == true)
         ) {
           roundsWon_x++;
-          player1Score.innerHTML= roundsWon_x;
-          if(roundsWon_x==rounds){
+          player1Score.innerHTML = roundsWon_x;
+          if (roundsWon_x == rounds) {
             win_modal();
+          } else {
+            reset_modal();
           }
-          reset_modal();
-        }
-        else if (clicked_box.length == 9) {
+        } else if (clicked_box.length == 9) {
           draw_reset_modal();
         }
       } else if (item.id == "box8") {
@@ -169,13 +171,13 @@ Array.from(boxes).forEach((item) => {
           (arr_x.includes("box7") == true && arr_x.includes("box9") == true)
         ) {
           roundsWon_x++;
-          player1Score.innerHTML= roundsWon_x;
-          if(roundsWon_x==rounds){
+          player1Score.innerHTML = roundsWon_x;
+          if (roundsWon_x == rounds) {
             win_modal();
+          } else {
+            reset_modal();
           }
-          reset_modal();
-        }
-        else if (clicked_box.length == 9) {
+        } else if (clicked_box.length == 9) {
           draw_reset_modal();
         }
       } else if (item.id == "box9") {
@@ -185,13 +187,13 @@ Array.from(boxes).forEach((item) => {
           (arr_x.includes("box5") == true && arr_x.includes("box1") == true)
         ) {
           roundsWon_x++;
-          player1Score.innerHTML= roundsWon_x;
-          if(roundsWon_x==rounds){
+          player1Score.innerHTML = roundsWon_x;
+          if (roundsWon_x == rounds) {
             win_modal();
+          } else {
+            reset_modal();
           }
-          reset_modal();
-        }
-        else if (clicked_box.length == 9) {
+        } else if (clicked_box.length == 9) {
           draw_reset_modal();
         }
       }
@@ -210,14 +212,14 @@ Array.from(boxes).forEach((item) => {
           (arr_o.includes("box5") == true && arr_o.includes("box9") == true)
         ) {
           roundsWon_o++;
-          player2Score.innerHTML= roundsWon_o;
-          if(roundsWon_o==rounds){
+          player2Score.innerHTML = roundsWon_o;
+          if (roundsWon_o == rounds) {
             win_modal();
+          } else {
+            reset_modal();
           }
-          reset_modal();
           // reset_modal();
-        }
-        else if (clicked_box.length == 9) {
+        } else if (clicked_box.length == 9) {
           draw_reset_modal();
         }
       } else if (item.id == "box2") {
@@ -226,13 +228,13 @@ Array.from(boxes).forEach((item) => {
           (arr_o.includes("box5") == true && arr_o.includes("box8") == true)
         ) {
           roundsWon_o++;
-          player2Score.innerHTML= roundsWon_o;
-          if(roundsWon_o==rounds){
+          player2Score.innerHTML = roundsWon_o;
+          if (roundsWon_o == rounds) {
             win_modal();
+          } else {
+            reset_modal();
           }
-          reset_modal();
-        }
-        else if (clicked_box.length == 9) {
+        } else if (clicked_box.length == 9) {
           draw_reset_modal();
         }
       } else if (item.id == "box3") {
@@ -242,13 +244,13 @@ Array.from(boxes).forEach((item) => {
           (arr_o.includes("box6") == true && arr_o.includes("box9") == true)
         ) {
           roundsWon_o++;
-          player2Score.innerHTML= roundsWon_o;
-          if(roundsWon_o==rounds){
+          player2Score.innerHTML = roundsWon_o;
+          if (roundsWon_o == rounds) {
             win_modal();
+          } else {
+            reset_modal();
           }
-          reset_modal();
-        }
-        else if (clicked_box.length == 9) {
+        } else if (clicked_box.length == 9) {
           draw_reset_modal();
         }
       } else if (item.id == "box4") {
@@ -257,13 +259,13 @@ Array.from(boxes).forEach((item) => {
           (arr_o.includes("box5") == true && arr_o.includes("box6") == true)
         ) {
           roundsWon_o++;
-          player2Score.innerHTML= roundsWon_o;
-          if(roundsWon_o==rounds){
+          player2Score.innerHTML = roundsWon_o;
+          if (roundsWon_o == rounds) {
             win_modal();
+          } else {
+            reset_modal();
           }
-          reset_modal();
-        }
-        else if (clicked_box.length == 9) {
+        } else if (clicked_box.length == 9) {
           draw_reset_modal();
         }
       } else if (item.id == "box5") {
@@ -274,13 +276,13 @@ Array.from(boxes).forEach((item) => {
           (arr_o.includes("box4") == true && arr_o.includes("box6") == true)
         ) {
           roundsWon_o++;
-          player2Score.innerHTML= roundsWon_o;
-          if(roundsWon_o==rounds){
+          player2Score.innerHTML = roundsWon_o;
+          if (roundsWon_o == rounds) {
             win_modal();
+          } else {
+            reset_modal();
           }
-          reset_modal();
-        }
-        else if (clicked_box.length == 9) {
+        } else if (clicked_box.length == 9) {
           draw_reset_modal();
         }
       } else if (item.id == "box6") {
@@ -289,13 +291,13 @@ Array.from(boxes).forEach((item) => {
           (arr_o.includes("box3") == true && arr_o.includes("box9") == true)
         ) {
           roundsWon_o++;
-          player2Score.innerHTML= roundsWon_o;
-          if(roundsWon_o==rounds){
+          player2Score.innerHTML = roundsWon_o;
+          if (roundsWon_o == rounds) {
             win_modal();
+          } else {
+            reset_modal();
           }
-          reset_modal();
-        }
-        else if (clicked_box.length == 9) {
+        } else if (clicked_box.length == 9) {
           draw_reset_modal();
         }
       } else if (item.id == "box7") {
@@ -305,13 +307,13 @@ Array.from(boxes).forEach((item) => {
           (arr_o.includes("box8") == true && arr_o.includes("box9") == true)
         ) {
           roundsWon_o++;
-          player2Score.innerHTML= roundsWon_o;
-          if(roundsWon_o==rounds){
+          player2Score.innerHTML = roundsWon_o;
+          if (roundsWon_o == rounds) {
             win_modal();
+          } else {
+            reset_modal();
           }
-          reset_modal();
-        }
-        else if (clicked_box.length == 9) {
+        } else if (clicked_box.length == 9) {
           draw_reset_modal();
         }
       } else if (item.id == "box8") {
@@ -320,13 +322,13 @@ Array.from(boxes).forEach((item) => {
           (arr_o.includes("box7") == true && arr_o.includes("box9") == true)
         ) {
           roundsWon_o++;
-          player2Score.innerHTML= roundsWon_o;
-          if(roundsWon_o==rounds){
+          player2Score.innerHTML = roundsWon_o;
+          if (roundsWon_o == rounds) {
             win_modal();
+          } else {
+            reset_modal();
           }
-          reset_modal();
-        }
-        else if (clicked_box.length == 9) {
+        } else if (clicked_box.length == 9) {
           draw_reset_modal();
         }
       } else if (item.id == "box9") {
@@ -336,30 +338,22 @@ Array.from(boxes).forEach((item) => {
           (arr_o.includes("box5") == true && arr_o.includes("box1") == true)
         ) {
           roundsWon_o++;
-          player2Score.innerHTML= roundsWon_o;
-          if(roundsWon_o==rounds){
+          player2Score.innerHTML = roundsWon_o;
+          if (roundsWon_o == rounds) {
             win_modal();
+          } else {
+            reset_modal();
           }
-          reset_modal();
-        }
-        else if (clicked_box.length == 9) {
+        } else if (clicked_box.length == 9) {
           draw_reset_modal();
         }
       }
 
-
       turn = "1";
     }
-    if (clicked_box.length == 9) {
-      draw_reset_modal();
-    }
-    
     
   });
-  
 });
-
-
 
 const reset_btn = document.getElementById("reset");
 reset_btn.addEventListener("click", reset_function);
@@ -398,30 +392,26 @@ function reset_function() {
   reset_modal.classList.add("end_hidden");
   let draw_reset_modal = document.getElementById("draw");
   draw_reset_modal.classList.add("end_hidden");
-  let win_modal= document.getElementById("win_modal");
+  let win_modal = document.getElementById("win_modal");
   let message_box = document.getElementById("message_box");
   win_modal.classList.add("win_modal_hidden");
   message_box.classList.add("message_box_hidden");
 }
 //reset after win
-function reset_modal(){
+function reset_modal() {
   let reset_modal = document.getElementById("end");
   reset_modal.classList.remove("end_hidden");
-  reset_modal.addEventListener("click", ()=>{
+  reset_modal.addEventListener("click", () => {
     reset_function();
-  })
+  });
+}
 
-};
-
-function draw_reset_modal(){
+function draw_reset_modal() {
   let draw_reset_modal = document.getElementById("draw");
   draw_reset_modal.classList.remove("end_hidden");
-  draw_reset_modal.addEventListener("click", ()=>{
+  draw_reset_modal.addEventListener("click", () => {
     reset_function();
-  })
-  
-  
-
+  });
 }
 
 // Winning targated rounds
@@ -441,7 +431,7 @@ function win_modal() {
   message_box.classList.remove("message_box_hidden");
   win_modal.classList.remove("win_modal_hidden");
   let won = document.getElementById("won");
-  won.addEventListener("click", ()=>{
+  won.addEventListener("click", () => {
     window.location.reload();
   });
 }
