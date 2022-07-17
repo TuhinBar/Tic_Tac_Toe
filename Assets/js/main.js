@@ -24,8 +24,8 @@ play.addEventListener("click", () => {
   let player1 = document.getElementById("player1").value;
   let player2 = document.getElementById("player2").value;
   if (player1 && player2 != undefined) {
-    document.getElementById("plr1").innerText = player1;
-    document.getElementById("plr2").innerText = player2;
+    document.getElementById("plr1").innerHTML = `${player1} | <i class="fa-solid fa-xmark"></i> |`;
+    document.getElementById("plr2").innerHTML = `${player2} | <i class="fa-regular fa-o"></i> |`;
     document.getElementById("score-1").innerText = player1;
     document.getElementById("score-2").innerText = player2;
   }
@@ -218,7 +218,6 @@ Array.from(boxes).forEach((item) => {
           } else {
             reset_modal();
           }
-          // reset_modal();
         } else if (clicked_box.length == 9) {
           draw_reset_modal();
         }
@@ -386,8 +385,6 @@ function reset_function() {
   arr_x = [];
   arr_o = [];
   clicked_box = [];
-  // player1Score = rounds;
-  // console.log(player1Score);
   let reset_modal = document.getElementById("end");
   reset_modal.classList.add("end_hidden");
   let draw_reset_modal = document.getElementById("draw");
@@ -414,20 +411,21 @@ function draw_reset_modal() {
   });
 }
 
-// Winning targated rounds
-// function gameWonx(){
-//   roundsWon++;
-//   player1Score.innerHTML= roundsWon;
-//   if(roundsWon==rounds){
-//     alert("you won")
-//   }
-// }
 // winning modal
 
 function win_modal() {
   let win_modal = document.getElementById("win_modal");
   let message_box = document.getElementById("message_box");
-  console.log(message_box);
+  var plr1Won = document.getElementById("score-1").innerText;
+  var plr2Won = document.getElementById("score-2").innerText;
+  if(turn == "1"){
+    var winner = document.getElementById("winner");
+    winner.innerHTML = `Yay ! ${plr1Won} <i class='bx bx-crown bx-tada' ></i>  won`
+  }
+  else if(turn == "0"){
+    var winner = document.getElementById("winner");
+    winner.innerHTML = `Yay! ${plr2Won}  <i class='bx bx-crown bx-tada' ></i> won`
+  };
   message_box.classList.remove("message_box_hidden");
   win_modal.classList.remove("win_modal_hidden");
   let won = document.getElementById("won");

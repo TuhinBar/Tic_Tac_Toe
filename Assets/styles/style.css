@@ -273,6 +273,12 @@ input[type="range"] {
   margin: 0 5rem;
   opacity: 0;
 }
+.bx-party{
+  color: rgb(242, 242, 133);
+}
+.bx-crown{
+  color: goldenrod;
+}
 #score-1 {
   margin-right: 5rem;
 }
