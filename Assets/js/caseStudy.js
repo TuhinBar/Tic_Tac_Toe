@@ -1,1 +1,0 @@
-console.log("Case study for tic tac toe")
