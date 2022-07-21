@@ -17,7 +17,7 @@
 *** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
-[![Contributors][contributors-shield]][contributors-url](https://github.com/TuhinBar/Tic_Tac_Toe/graphs/contributors)
+[![Contributors][contributors-shield]][(https://github.com/TuhinBar/Tic_Tac_Toe/graphs/contributors)]
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
