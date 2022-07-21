@@ -41,7 +41,7 @@
     <a href="https://github.com/arian0zen/Tic_Tac_Toe"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
+    <a href="https://arian0zen.github.io/Tic_Tac_Toe/">View Demo</a>
     ·
     <a href="https://github.com/othneildrew/Best-README-Template/issues">Report Bug</a>
     ·
