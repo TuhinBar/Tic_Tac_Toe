@@ -83,6 +83,7 @@
 ## About The Project
 
 ![Project01](https://user-images.githubusercontent.com/85868593/180148139-d607dd82-3876-40c5-a366-f0d6f0c80ec2.png)
+![project_01](https://user-images.githubusercontent.com/85868593/180148492-b18c7499-c3ba-4a6d-a693-3465132ce7e0.png)
 
 There are many great README templates available on GitHub; however, I didn't find one that really suited my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
 
