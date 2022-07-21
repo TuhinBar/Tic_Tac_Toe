@@ -43,9 +43,9 @@
     <br />
     <a href="https://arian0zen.github.io/Tic_Tac_Toe/">View Demo</a>
     ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Report Bug</a>
+    <a href="https://github.com/arian0zen/Tic_Tac_Toe/issues">Report Bug</a>
     ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Request Feature</a>
+    <a href="https://github.com/arian0zen/Tic_Tac_Toe/issues">Request Feature</a>
   </p>
 </div>
 
