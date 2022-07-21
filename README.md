@@ -30,7 +30,7 @@
 <div align="center">
   <a href="https://github.com/othneildrew/Best-README-Template">
     <img src="https://user-images.githubusercontent.com/85868593/180139117-8cb9dba0-56c9-4c58-b0b0-ee535afe17d0.png"
- alt="Logo" width="80" height="80">
+  width="80" height="80">
   </a>
 
   <h3 align="center">Tic Tac Toe</h3>
