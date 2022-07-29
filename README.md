@@ -85,7 +85,7 @@
 ![Project01](https://user-images.githubusercontent.com/85868593/180148139-d607dd82-3876-40c5-a366-f0d6f0c80ec2.png)
 ![project_01](https://user-images.githubusercontent.com/85868593/180148492-b18c7499-c3ba-4a6d-a693-3465132ce7e0.png)
 
-There are many great README templates available on GitHub; however, I didn't find one that really suited my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
+As the first project of me and #Arian(https://github.com/arian0zen) this one was very special. We wonder how this has been completed in this little time. Anyway, as you all can see it is a web based, 2 players game with multiple funcionalities. This game has ay interactive and colorful UI which has been appriciated by many of our users(friends). 
 
 Here's why:
 * Your time should be focused on creating something amazing. A project that solves a problem and helps others
