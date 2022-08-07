@@ -138,7 +138,7 @@ And the most important thing, go with a design or wireframe. Don't go blank it w
 * You can get a Canva subscription free if you have [Github Student Developer Pack](https://education.github.com/pack). If you son't have it apply now, it's free and a must have for students. 
 
 * Wireframe for this project
-* ![image](https://user-images.githubusercontent.com/85868593/183285167-43a48032-d894-40be-abbd-543bab9e893d.png)
+ ![image](https://user-images.githubusercontent.com/85868593/183285167-43a48032-d894-40be-abbd-543bab9e893d.png)
  
 
 
@@ -188,6 +188,8 @@ Don't forget to give the project a star! Thanks again!
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 <!-- CONTACT -->
+
+
 ## Contact
 
 - [Tuhin Bar](tuhinbar02@gmail.com) or [Arian Shaikh](ariansk90@gmail.com)
