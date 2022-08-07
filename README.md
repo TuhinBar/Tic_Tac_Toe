@@ -104,7 +104,7 @@ This game helped us to learn about many things, like we saw there are millions o
 Well, this doesn't include a heavy tech stack but fundamentals. 
 
 * [![Bootstrap][Bootstrap.com]][Bootstrap-url]
-* [![JavaScript][javascript.com]][javscript-url]
+* [![JavaScript][javascript.com]][https://img.shields.io/badge/-JavaScript-orange]
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
