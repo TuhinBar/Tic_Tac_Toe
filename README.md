@@ -130,6 +130,7 @@ There are few presrequisites, such as
 * A go0d hold in CSS
 * Advance dom manupulation using JavaScript
 * Conditional statements in javaScript
+* (Advance yet helpful) Use color palets! Check out [Color hunt](https://colorhunt.co)
 
 And the most important thing, go with a design or wireframe. Don't go blank it will take you long and you will not be able to take decisions. We created a wireframe for this project using [Balsemiq cloud](https://balsamiq.com/wireframes/cloud/).
 
@@ -214,6 +215,7 @@ This whole thing accoplished in a very critical situation. A lot of fighting, di
 * [GitHub Pages](https://pages.github.com)
 * [Font Awesome](https://fontawesome.com)
 * [Boxicons](https://boxicons.com/)
+* [Color hunt](https://colorhunt.co)
 
 * And specially [othneildrew](https://github.com/othneildrew) for this amazing [Readme template!](https://github.com/othneildrew/Best-README-Template). All credit and copyright of this readme template belongs to [othneildrew](https://github.com/othneildrew)
 
