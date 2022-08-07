@@ -192,7 +192,7 @@ Don't forget to give the project a star! Thanks again!
 
 ## Contact
 
-- [Tuhin Bar](tuhinbar02@gmail.com) or [Arian Shaikh](ariansk90@gmail.com)
+- [Tuhin Bar](https://www.linkedin.com/in/tuhin-bar/) or [Arian Shaikh](https://www.linkedin.com/in/arian-shaikh-3b679b240/)
 
 Project Link: [https://github.com/TuhinBar/Tic_Tac_Toe](https://github.com//TuhinBar/Tic_Tac_Toe)
 
