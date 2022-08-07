@@ -87,12 +87,14 @@
 
 As the first project of me and [Arian](https://github.com/arian0zen) this one was very special. We wonder how this has been completed in this little time. Anyway, as you all can see it is a web based, 2 players game with multiple funcionalities. This game has ay interactive and colorful UI which has been appriciated by many of our users(friends). 
 
-Here's why:
-* Your time should be focused on creating something amazing. A project that solves a problem and helps others
-* You shouldn't be doing the same tasks over and over like creating a README from scratch
-* You should implement DRY principles to the rest of your life :smile:
+Key points :
+* This type of project is great stratup for beginners.
+* It helps to understand about the integration of learning in early phase. Like the use of javascript and logic building to perform user interaction on web page.
+* This type of games, specially the UI teaches a lot. You can be familier with Positioning of elements and responsive UI after this type of projects.
+* It is strongly recomended to build a very small project like this before moving on landing page and full stack projects.
+* This type of projects gives you exposure to express your creativity. You can experiment with the UI and funcionalities.
 
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have contributed to expanding this template!
+This game helped us to learn about many things, like we saw there are millions of tic tac toe around the internet, specially, vs AI. But none of them having all these functionalities all togather. Like most of the game don't have the feature to play with player names. If they have somehow, there will not be a option to reset the round. Along with that no one added rounds in a tic tac toe game. So we tried to implement this all togather. :smile:
 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
