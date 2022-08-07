@@ -203,12 +203,13 @@ Project Link: [https://github.com/TuhinBar/Tic_Tac_Toe](https://github.com//Tuhi
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-Use this space to list resources you find helpful and would like to give credit to. I've included a few of my favorites to kick things off!
-
-* [Choose an Open Source License](https://choosealicense.com)
-* [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
-* [Malven's Flexbox Cheatsheet](https://flexbox.malven.co/)
-* [Malven's Grid Cheatsheet](https://grid.malven.co/)
+This whole thing accoplished in a very critical situation. A lot of fighting, disagreeement, uncountable cup of coffies, sleepless nights, discord and obviously music.
+* The first acknowledgement goes to my brother [Arian](https://www.linkedin.com/in/tuhin-bar/) 🤟 for helping any carrying me throughout the whole time (12 days to be precise).
+ 
+* [CodePen](https://codepen.io/trending)
+* [Balsemiq cloud](https://balsamiq.com/wireframes/cloud/)
+* [Discord](https://discord.com/)
+* [Youtube](https://youtube.com)
 * [Img Shields](https://shields.io)
 * [GitHub Pages](https://pages.github.com)
 * [Font Awesome](https://fontawesome.com)
