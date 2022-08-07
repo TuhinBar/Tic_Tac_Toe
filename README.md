@@ -65,13 +65,11 @@
       <a href="#getting-started">Getting Started</a>
       <ul>
         <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
     <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
     <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
@@ -88,7 +86,7 @@
 As the first project of me and [Arian](https://github.com/arian0zen) this one was very special. We wonder how this has been completed in this little time. Anyway, as you all can see it is a web based, 2 players game with multiple funcionalities. This game has ay interactive and colorful UI which has been appriciated by many of our users(friends). 
 
 Key points :
-* This type of project is great stratup for beginners.
+* This type of project is great strat for beginners.
 * It helps to understand about the integration of learning in early phase. Like the use of javascript and logic building to perform user interaction on web page.
 * This type of games, specially the UI teaches a lot. You can be familier with Positioning of elements and responsive UI after this type of projects.
 * It is strongly recomended to build a very small project like this before moving on landing page and full stack projects.
@@ -103,9 +101,10 @@ This game helped us to learn about many things, like we saw there are millions o
 
 ### Built With
 
-This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
+Well, this doesn't include a heavy tech stack but fundamentals. 
 
 * [![Bootstrap][Bootstrap.com]][Bootstrap-url]
+* [![JavaScript][javascript.com]][javscript-url]
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
