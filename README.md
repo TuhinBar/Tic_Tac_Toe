@@ -215,6 +215,8 @@ This whole thing accoplished in a very critical situation. A lot of fighting, di
 * [Font Awesome](https://fontawesome.com)
 * [React Icons](https://react-icons.github.io/react-icons/search)
 
+* And specially [othneildrew](https://github.com/othneildrew) for this amazing [Readme template!](https://github.com/othneildrew/Best-README-Template). All credit and copyright of this readme template belongs to [othneildrew](https://github.com/othneildrew)
+
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
