@@ -213,7 +213,7 @@ This whole thing accoplished in a very critical situation. A lot of fighting, di
 * [Img Shields](https://shields.io)
 * [GitHub Pages](https://pages.github.com)
 * [Font Awesome](https://fontawesome.com)
-* [React Icons](https://react-icons.github.io/react-icons/search)
+* [Boxicons](https://boxicons.com/)
 
 * And specially [othneildrew](https://github.com/othneildrew) for this amazing [Readme template!](https://github.com/othneildrew/Best-README-Template). All credit and copyright of this readme template belongs to [othneildrew](https://github.com/othneildrew)
 
