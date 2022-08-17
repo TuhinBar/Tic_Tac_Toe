@@ -126,8 +126,8 @@ Well, this doesn't include a heavy tech stack but fundamentals. Thought bootstra
 
 There are few presrequisites, such as
 
-* Undertanding of HTML
-* A go0d hold in CSS
+* Understanding of HTML
+* A good hold in CSS
 * Advance dom manupulation using JavaScript
 * Conditional statements in javaScript
 * (Advance yet helpful) Use color palets! Check out [Color hunt](https://colorhunt.co)
