@@ -205,7 +205,7 @@ Project Link: [https://github.com/TuhinBar/Tic_Tac_Toe](https://github.com//Tuhi
 ## Acknowledgments
 
 This whole thing accoplished in a very critical situation. A lot of fighting, disagreeement, uncountable cup of coffies, sleepless nights, discord and obviously music.
-* The first acknowledgement goes to my brother [Arian](https://www.linkedin.com/in/tuhin-bar/) 🤟 for helping any carrying me throughout the whole time (12 days to be precise).
+* The first acknowledgement goes to my brother [Arian](https://github.com/arian0zen) 🤟 for helping any carrying me throughout the whole time (12 days to be precise).
  
 * [CodePen](https://codepen.io/trending)
 * [Balsemiq cloud](https://balsamiq.com/wireframes/cloud/)
