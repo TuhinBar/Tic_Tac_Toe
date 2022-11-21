@@ -83,7 +83,7 @@
 ![Project01](https://user-images.githubusercontent.com/85868593/180148139-d607dd82-3876-40c5-a366-f0d6f0c80ec2.png)
 ![project_01](https://user-images.githubusercontent.com/85868593/180148492-b18c7499-c3ba-4a6d-a693-3465132ce7e0.png)
 
-As the first project of me and [Arian](https://github.com/arian0zen) this one was very special. We wonder how this has been completed in this little time. Anyway, as you all can see it is a web based, 2 players game with multiple funcionalities. This game has ay interactive and colorful UI which has been appriciated by many of our users(friends). 
+As the first project of me and [Arian](https://github.com/arian0zen) this one was very special. We wonder how this has been completed in this little time. Anyway, as you all can see it is a web based, 2 players game with multiple functionalities. This game has ay interactive and colorful UI which has been appriciated by many of our users(friends). 
 
 Key points :
 * This type of project is great strat for beginners.
@@ -135,7 +135,7 @@ There are few presrequisites, such as
 And the most important thing, go with a design or wireframe. Don't go blank it will take you long and you will not be able to take decisions. We created a wireframe for this project using [Balsemiq cloud](https://balsamiq.com/wireframes/cloud/).
 
 * It is free for a month you can use it to make wireframes.
-* If you dont want to use it you can use [Canva](https://www.canva.com/) to make a images based page and then turn it into your design.
+* If you don't want to use it you can use [Canva](https://www.canva.com/) to make a images based page and then turn it into your design.
 * You can get a Canva subscription free if you have [Github Student Developer Pack](https://education.github.com/pack). If you son't have it apply now, it's free and a must have for students. 
 
 * Wireframe for this project
